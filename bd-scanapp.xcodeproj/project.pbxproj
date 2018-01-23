@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863F67031FE9A60D00809D35 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F67021FE9A60D00809D35 /* LoginViewController.swift */; };
+		863F67051FE9A66900809D35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F67041FE9A66900809D35 /* HomeViewController.swift */; };
+		863F67071FE9A68300809D35 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F67061FE9A68300809D35 /* QRScanViewController.swift */; };
+		863F67091FE9A68F00809D35 /* ManualInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F67081FE9A68F00809D35 /* ManualInputViewController.swift */; };
+		863F670B1FE9A69D00809D35 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F670A1FE9A69D00809D35 /* CommentViewController.swift */; };
+		863F670D1FE9A6A800809D35 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F670C1FE9A6A800809D35 /* LoadingViewController.swift */; };
+		863F670F1FE9A6B200809D35 /* SuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F670E1FE9A6B200809D35 /* SuccesViewController.swift */; };
+		863F67111FE9A6BB00809D35 /* FailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F67101FE9A6BB00809D35 /* FailViewController.swift */; };
+		863F67131FE9A6C600809D35 /* FailAgainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F67121FE9A6C600809D35 /* FailAgainViewController.swift */; };
+		863F67171FE9B8B200809D35 /* FrutigerLTPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 868782631FE949A8004EE77C /* FrutigerLTPro-Black.otf */; };
+		863F67181FE9B8B500809D35 /* FrutigerLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 868782641FE949A8004EE77C /* FrutigerLTPro-Bold.otf */; };
+		863F67191FE9B8B800809D35 /* FrutigerLTPro-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 868782651FE949A8004EE77C /* FrutigerLTPro-Italic.otf */; };
+		863F671A1FE9B8BA00809D35 /* FrutigerLTPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 868782661FE949A9004EE77C /* FrutigerLTPro-Light.otf */; };
+		863F671B1FE9B8BD00809D35 /* FrutigerLTPro-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 868782621FE949A8004EE77C /* FrutigerLTPro-Roman.otf */; };
+		8655EF031FEC57EA005C7708 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8655EF021FEC57EA005C7708 /* API.swift */; };
 		868782351FE948D0004EE77C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868782341FE948D0004EE77C /* AppDelegate.swift */; };
-		868782371FE948D0004EE77C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868782361FE948D0004EE77C /* ViewController.swift */; };
 		8687823A1FE948D0004EE77C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868782381FE948D0004EE77C /* Main.storyboard */; };
 		8687823C1FE948D0004EE77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8687823B1FE948D0004EE77C /* Assets.xcassets */; };
 		8687823F1FE948D0004EE77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8687823D1FE948D0004EE77C /* LaunchScreen.storyboard */; };
 		8687824A1FE948D1004EE77C /* bd_scanappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868782491FE948D1004EE77C /* bd_scanappTests.swift */; };
 		868782551FE948D1004EE77C /* bd_scanappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868782541FE948D1004EE77C /* bd_scanappUITests.swift */; };
+		868782701FE949F4004EE77C /* UICircularProgressRingGradientPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687826B1FE949F4004EE77C /* UICircularProgressRingGradientPosition.swift */; };
+		868782711FE949F4004EE77C /* UICircularProgressRingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687826C1FE949F4004EE77C /* UICircularProgressRingStyle.swift */; };
+		868782721FE949F4004EE77C /* UICircularProgressRingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687826D1FE949F4004EE77C /* UICircularProgressRingDelegate.swift */; };
+		868782731FE949F4004EE77C /* UICircularProgressRingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687826E1FE949F4004EE77C /* UICircularProgressRingLayer.swift */; };
+		868782741FE949F4004EE77C /* UICircularProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8687826F1FE949F4004EE77C /* UICircularProgressRingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +53,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		863F67021FE9A60D00809D35 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		863F67041FE9A66900809D35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		863F67061FE9A68300809D35 /* QRScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
+		863F67081FE9A68F00809D35 /* ManualInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualInputViewController.swift; sourceTree = "<group>"; };
+		863F670A1FE9A69D00809D35 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		863F670C1FE9A6A800809D35 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		863F670E1FE9A6B200809D35 /* SuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccesViewController.swift; sourceTree = "<group>"; };
+		863F67101FE9A6BB00809D35 /* FailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailViewController.swift; sourceTree = "<group>"; };
+		863F67121FE9A6C600809D35 /* FailAgainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailAgainViewController.swift; sourceTree = "<group>"; };
+		863F67141FE9AC8F00809D35 /* bd-scanapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bd-scanapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		8655EF021FEC57EA005C7708 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		868782311FE948D0004EE77C /* bd-scanapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bd-scanapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		868782341FE948D0004EE77C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		868782361FE948D0004EE77C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		868782391FE948D0004EE77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8687823B1FE948D0004EE77C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8687823E1FE948D0004EE77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +76,16 @@
 		868782501FE948D1004EE77C /* bd-scanappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bd-scanappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		868782541FE948D1004EE77C /* bd_scanappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bd_scanappUITests.swift; sourceTree = "<group>"; };
 		868782561FE948D1004EE77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868782621FE949A8004EE77C /* FrutigerLTPro-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FrutigerLTPro-Roman.otf"; sourceTree = "<group>"; };
+		868782631FE949A8004EE77C /* FrutigerLTPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FrutigerLTPro-Black.otf"; sourceTree = "<group>"; };
+		868782641FE949A8004EE77C /* FrutigerLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FrutigerLTPro-Bold.otf"; sourceTree = "<group>"; };
+		868782651FE949A8004EE77C /* FrutigerLTPro-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FrutigerLTPro-Italic.otf"; sourceTree = "<group>"; };
+		868782661FE949A9004EE77C /* FrutigerLTPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FrutigerLTPro-Light.otf"; sourceTree = "<group>"; };
+		8687826B1FE949F4004EE77C /* UICircularProgressRingGradientPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICircularProgressRingGradientPosition.swift; sourceTree = "<group>"; };
+		8687826C1FE949F4004EE77C /* UICircularProgressRingStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICircularProgressRingStyle.swift; sourceTree = "<group>"; };
+		8687826D1FE949F4004EE77C /* UICircularProgressRingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICircularProgressRingDelegate.swift; sourceTree = "<group>"; };
+		8687826E1FE949F4004EE77C /* UICircularProgressRingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICircularProgressRingLayer.swift; sourceTree = "<group>"; };
+		8687826F1FE949F4004EE77C /* UICircularProgressRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICircularProgressRingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +136,24 @@
 		868782331FE948D0004EE77C /* bd-scanapp */ = {
 			isa = PBXGroup;
 			children = (
-				868782341FE948D0004EE77C /* AppDelegate.swift */,
-				868782361FE948D0004EE77C /* ViewController.swift */,
+				8687826A1FE949E6004EE77C /* progressRing */,
+				868782671FE949AD004EE77C /* Fonts */,
+				863F67021FE9A60D00809D35 /* LoginViewController.swift */,
+				863F67041FE9A66900809D35 /* HomeViewController.swift */,
+				863F67061FE9A68300809D35 /* QRScanViewController.swift */,
+				863F67081FE9A68F00809D35 /* ManualInputViewController.swift */,
+				863F670A1FE9A69D00809D35 /* CommentViewController.swift */,
+				8655EF021FEC57EA005C7708 /* API.swift */,
+				863F670C1FE9A6A800809D35 /* LoadingViewController.swift */,
+				863F670E1FE9A6B200809D35 /* SuccesViewController.swift */,
+				863F67101FE9A6BB00809D35 /* FailViewController.swift */,
+				863F67121FE9A6C600809D35 /* FailAgainViewController.swift */,
 				868782381FE948D0004EE77C /* Main.storyboard */,
-				8687823B1FE948D0004EE77C /* Assets.xcassets */,
 				8687823D1FE948D0004EE77C /* LaunchScreen.storyboard */,
+				8687823B1FE948D0004EE77C /* Assets.xcassets */,
+				868782341FE948D0004EE77C /* AppDelegate.swift */,
 				868782401FE948D0004EE77C /* Info.plist */,
+				863F67141FE9AC8F00809D35 /* bd-scanapp-Bridging-Header.h */,
 			);
 			path = "bd-scanapp";
 			sourceTree = "<group>";
@@ -123,6 +174,30 @@
 				868782561FE948D1004EE77C /* Info.plist */,
 			);
 			path = "bd-scanappUITests";
+			sourceTree = "<group>";
+		};
+		868782671FE949AD004EE77C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				868782631FE949A8004EE77C /* FrutigerLTPro-Black.otf */,
+				868782641FE949A8004EE77C /* FrutigerLTPro-Bold.otf */,
+				868782651FE949A8004EE77C /* FrutigerLTPro-Italic.otf */,
+				868782661FE949A9004EE77C /* FrutigerLTPro-Light.otf */,
+				868782621FE949A8004EE77C /* FrutigerLTPro-Roman.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8687826A1FE949E6004EE77C /* progressRing */ = {
+			isa = PBXGroup;
+			children = (
+				8687826D1FE949F4004EE77C /* UICircularProgressRingDelegate.swift */,
+				8687826B1FE949F4004EE77C /* UICircularProgressRingGradientPosition.swift */,
+				8687826E1FE949F4004EE77C /* UICircularProgressRingLayer.swift */,
+				8687826C1FE949F4004EE77C /* UICircularProgressRingStyle.swift */,
+				8687826F1FE949F4004EE77C /* UICircularProgressRingView.swift */,
+			);
+			path = progressRing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +268,7 @@
 				TargetAttributes = {
 					868782301FE948D0004EE77C = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					868782441FE948D1004EE77C = {
@@ -233,8 +309,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8687823F1FE948D0004EE77C /* LaunchScreen.storyboard in Resources */,
+				863F671B1FE9B8BD00809D35 /* FrutigerLTPro-Roman.otf in Resources */,
+				863F67171FE9B8B200809D35 /* FrutigerLTPro-Black.otf in Resources */,
 				8687823C1FE948D0004EE77C /* Assets.xcassets in Resources */,
+				863F671A1FE9B8BA00809D35 /* FrutigerLTPro-Light.otf in Resources */,
+				863F67181FE9B8B500809D35 /* FrutigerLTPro-Bold.otf in Resources */,
 				8687823A1FE948D0004EE77C /* Main.storyboard in Resources */,
+				863F67191FE9B8B800809D35 /* FrutigerLTPro-Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +340,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868782371FE948D0004EE77C /* ViewController.swift in Sources */,
+				863F67071FE9A68300809D35 /* QRScanViewController.swift in Sources */,
 				868782351FE948D0004EE77C /* AppDelegate.swift in Sources */,
+				863F67131FE9A6C600809D35 /* FailAgainViewController.swift in Sources */,
+				863F670F1FE9A6B200809D35 /* SuccesViewController.swift in Sources */,
+				868782701FE949F4004EE77C /* UICircularProgressRingGradientPosition.swift in Sources */,
+				868782731FE949F4004EE77C /* UICircularProgressRingLayer.swift in Sources */,
+				863F67051FE9A66900809D35 /* HomeViewController.swift in Sources */,
+				863F67111FE9A6BB00809D35 /* FailViewController.swift in Sources */,
+				863F67091FE9A68F00809D35 /* ManualInputViewController.swift in Sources */,
+				863F67031FE9A60D00809D35 /* LoginViewController.swift in Sources */,
+				868782711FE949F4004EE77C /* UICircularProgressRingStyle.swift in Sources */,
+				868782721FE949F4004EE77C /* UICircularProgressRingDelegate.swift in Sources */,
+				868782741FE949F4004EE77C /* UICircularProgressRingView.swift in Sources */,
+				863F670B1FE9A69D00809D35 /* CommentViewController.swift in Sources */,
+				8655EF031FEC57EA005C7708 /* API.swift in Sources */,
+				863F670D1FE9A6A800809D35 /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,14 +521,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HCQ5GHS76V;
 				INFOPLIST_FILE = "bd-scanapp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Bedrijvendagen-Twente.bd-scanapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.bedrijvendagentwente.scan-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bd-scanapp/bd-scanapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -441,14 +540,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HCQ5GHS76V;
 				INFOPLIST_FILE = "bd-scanapp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Bedrijvendagen-Twente.bd-scanapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.bedrijvendagentwente.scan-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bd-scanapp/bd-scanapp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
